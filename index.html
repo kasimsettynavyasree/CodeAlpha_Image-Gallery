@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Image Gallery</h1>
+</header>
+
+<div class="filters">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="nature">Nature</button>
+  <button data-filter="animals">Animals</button>
+  <button data-filter="people">People</button>
+</div>
+<div class="gallery">
+  <img src="https://picsum.photos/id/1015/600/800" class="gallery-item nature">
+  <img src="https://picsum.photos/id/1016/600/500" class="gallery-item nature">
+  <img src="https://picsum.photos/id/1020/600/700" class="gallery-item animals">
+  <img src="https://picsum.photos/id/1036/600/900" class="gallery-item nature">
+  <img src="https://picsum.photos/id/1024/600/600" class="gallery-item animals">
+  <img src="https://picsum.photos/id/237/600/700" class="gallery-item animals">
+  <img src="https://picsum.photos/id/433/600/800" class="gallery-item animals">
+  <img src="https://picsum.photos/id/1003/600/700" class="gallery-item animals">
+  <img src="https://picsum.photos/id/1011/600/800" class="gallery-item people">
+  
+</div>
+<div class="lightbox" id="lightbox">
+
+  <span class="close">&times;</span>
+  <button class="prev">&#10094;</button>
+  <img id="lightbox-img">
+  <button class="next">&#10095;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
